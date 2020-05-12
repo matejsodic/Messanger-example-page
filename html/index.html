@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="messages">
-                <div class="message-card">
+                <div class="message-card card-active">
                     <div class="message-sender">
                         <img src="../icons/dot.svg" alt="" class="notification-dot" width="10px" height="10px">
                         <p class="time">2h ago</p>
@@ -82,21 +82,89 @@
                         <img src="../icons/dot.svg" alt="" class="notification-dot" width="10px" height="10px">
                         <p class="time">12h ago</p>
                         <div class="sender-picture">
-                            <img src="../images/1.jpg" alt="" width="37px" height="37px" class="sender-pic">
+                            <img src="../images/2.jpg" alt="" width="37px" height="37px" class="sender-pic">
                         </div>
                         <div class="sender-info">
-                            <p class="sender-name">Julian H.</p>
+                            <p class="sender-name">Ramona J.</p>
                             <p class="applied-for">applied for <span class="highlighted">UI / UX Designer</span></p>
                         </div>
                     </div>
                     <div class="message-content">
-                        <p class="message-text">Julian Herbst: Hi, I have a quick question regarding my application on the open...</p>
+                        <p class="message-text">Lena Nattake: Hi Ramona, we just reviewed your application and we're happy to...</p>
                     </div>
                 </div>
 
                 <div class="message-card">
                     <div class="message-sender">
-                        <img src="../icons/dot.svg" alt="" class="notification-dot" width="10px" height="10px">
+                        <img src="../icons/dot.svg" alt="" class="notification-dot dot-hidden" width="10px" height="10px">
+                        <p class="time">2 days ago</p>
+                        <div class="sender-picture">
+                            <img src="../images/3.jpg" alt="" width="37px" height="37px" class="sender-pic">
+                        </div>
+                        <div class="sender-info">
+                            <p class="sender-name">Dominik W.</p>
+                            <p class="applied-for">applied for <span class="highlighted">Teamlead design</span></p>
+                        </div>
+                    </div>
+                    <div class="message-content">
+                        <p class="message-text">Lena Nattake: Hi Dominik, we just reviewd your application and we're happy to...</p>
+                    </div>
+                </div>
+
+                <div class="message-card">
+                    <div class="message-sender">
+                        <img src="../icons/dot.svg" alt="" class="notification-dot dot-hidden" width="10px" height="10px">
+                        <p class="time">2 days ago</p>
+                        <div class="sender-picture">
+                            <img src="../images/stockhuman.jpg" alt="" width="37px" height="37px" class="sender-pic">
+                        </div>
+                        <div class="sender-info">
+                            <p class="sender-name">kevin M.</p>
+                            <p class="applied-for">applied for <span class="highlighted">A very very long position that...</span></p>
+                        </div>
+                    </div>
+                    <div class="message-content">
+                        <p class="message-text">Kevin Meyers: Good morning, I just wanted to share my design challenge results...</p>
+                    </div>
+                </div>
+
+                <div class="message-card">
+                    <div class="message-sender">
+                        <img src="../icons/dot.svg" alt="" class="notification-dot dot-hidden" width="10px" height="10px">
+                        <p class="time">12h ago</p>
+                        <div class="sender-picture">
+                            <img src="../images/3.jpg" alt="" width="37px" height="37px" class="sender-pic">
+                        </div>
+                        <div class="sender-info">
+                            <p class="sender-name">Ramona J.</p>
+                            <p class="applied-for">applied for <span class="highlighted">UI / UX Designer</span></p>
+                        </div>
+                    </div>
+                    <div class="message-content">
+                        <p class="message-text">Lena Nattake: Hi Ramona, we just reviewed your application and we're happy to...</p>
+                    </div>
+                </div>
+
+                <div class="message-card">
+                    <div class="message-sender">
+                        <img src="../icons/dot.svg" alt="" class="notification-dot dot-hidden" width="10px" height="10px">
+                        <p class="time">2 days ago</p>
+                        <div class="sender-picture">
+                            <img src="../images/2.jpg" alt="" width="37px" height="37px" class="sender-pic">
+                        </div>
+                        <div class="sender-info">
+                            <p class="sender-name">Dominik W.</p>
+                            <p class="applied-for">applied for <span class="highlighted">Teamlead design</span></p>
+                        </div>
+                    </div>
+                    <div class="message-content">
+                        <p class="message-text">Lena Nattake: Hi Dominik, we just reviewd your application and we're happy to...</p>
+                    </div>
+                </div>
+
+                <div class="message-card">
+                    <div class="message-sender">
+                        <img src="../icons/dot.svg" alt="" class="notification-dot dot-hidden" width="10px" height="10px">
                         <p class="time">12h ago</p>
                         <div class="sender-picture">
                             <img src="../images/1.jpg" alt="" width="37px" height="37px" class="sender-pic">
@@ -110,95 +178,88 @@
                         <p class="message-text">Julian Herbst: Hi, I have a quick question regarding my application on the open...</p>
                     </div>
                 </div>
+            </div>
+        </div>
 
-                <div class="message-card">
-                    <div class="message-sender">
-                        <img src="../icons/dot.svg" alt="" class="notification-dot" width="10px" height="10px">
-                        <p class="time">12h ago</p>
+        <div class="text-screen-wrapper">
+            <div class="sender-tab">
+                <div class="sender-info sender-info-big">
+                    <p class="sender-name sender-name-big">Julian Herbrst</p>
+                    <p class="applied-for applied-for-big">applied for <span class="highlighted">UI / UX Designer</span></p>
+                </div>
+                <div class="right-actions">
+                    <a href="#" class="view-profile">View profile</a>
+                    <form action="#" class="messages-filter-form-two">
+                        <select id="message-filter-two" name="message-filter">
+                            <option value="applied">Applied</option>
+                            <option value="#">-</option>
+                            <option value="#">-</option>
+                            <option value="#">-</option>
+                        </select>
+                    </form>
+                    <a href="#" class="thumbs-up" ><img src="../icons/thumbs-up.svg" alt="" width="18px" height="18px"></a>
+                    <a href="#" class="x" ><img src="../icons/x.svg" alt="" width="18px" height="18px" ></a>
+                    <a href="#" class="three-dots"><img src="../icons/more-vertical.svg" alt="" width="24px" height="24px"></a>
+                </div>
+            </div>
+            <div class="text-screen-window">
+                <div class="left-message-wrapper">
+                    <p class="message-timestamp">09.03.20</p>
+                    <div class="message-wrapper-left">
+                        <p class="sender-initials sndr-int">JH</p>
+                        <div class="text-message-box">
+                            <h3 class="text-sender">Julian Herbrst</h3>
+                            <p class="text-text">Hi Lena, I have a quick question regarding my application on the open position "UI / UX Designer":
+
+How long does it usually take for you to review a application? I have some options right now but I would like to consider your company as well but I have no response since I applied. Please just give me a quick message.
+
+Thanks and best regards,
+Julian Herbst</p>
+                        </div>
+                    </div>
+                    <p class="message-sent">Message sent 1 week ago</p>
+                </div> 
+
+                <div class="left-message-wrapper left-message-wrapper-reversed">
+                    <p class="message-timestamp">09.03.20</p>
+                    <div class="message-wrapper-left message-wrapper-left-reversed">
                         <div class="sender-picture">
-                            <img src="../images/1.jpg" alt="" width="37px" height="37px" class="sender-pic">
+                            <img src="../images/1.jpg" alt="" width="55px" height="55px" class="sender-pic">
                         </div>
-                        <div class="sender-info">
-                            <p class="sender-name">Julian H.</p>
-                            <p class="applied-for">applied for <span class="highlighted">UI / UX Designer</span></p>
+                        <div class="text-message-box text-message-box-reversed">
+                            <p class="text-text text-text-reversed">Hi Lena, I have a quick question regarding my application on the open position "UI / UX Designer":
+
+How long does it usually take for you to review a application? I have some options right now but I would like to consider your company as well but I have no response since I applied. Please just give me a quick message.
+
+Thanks and best regards,
+Julian Herbst</p>
                         </div>
                     </div>
-                    <div class="message-content">
-                        <p class="message-text">Julian Herbst: Hi, I have a quick question regarding my application on the open...</p>
-                    </div>
+                    <p class="message-sent message-sent-reversed">Message sent just now</p>
                 </div>
 
-                <div class="message-card">
-                    <div class="message-sender">
-                        <img src="../icons/dot.svg" alt="" class="notification-dot" width="10px" height="10px">
-                        <p class="time">12h ago</p>
-                        <div class="sender-picture">
-                            <img src="../images/1.jpg" alt="" width="37px" height="37px" class="sender-pic">
+                <div class="write-message-box">
+                    <input type="text" class="write-text" placeholder="Write your message">
+                    <div class="edit-text-wrapper">
+                        <div class="edit-text">
+                            <a href="#"><img src="../icons/paperclip.svg" alt="" width="20px" height="20px"></a>
+                            <a href="#" class="b-bold">B</a>
+                            <a href="#" class="i-cursive">I</a>
+                            <a href="#"><img src="../icons/align-justify.svg" alt="" width="20px" height="20px"></a>
+                            <a href="#"><img src="../icons/list.svg" alt="" width="20px" height="20px"></a>
+                            <a href="#"><img src="../icons/link-2.svg" alt="" width="20px" height="20px"></a>
+                            <a href="#"><img src="../icons/link-2.svg" alt="" width="20px" height="20px"></a>
                         </div>
-                        <div class="sender-info">
-                            <p class="sender-name">Julian H.</p>
-                            <p class="applied-for">applied for <span class="highlighted">UI / UX Designer</span></p>
-                        </div>
-                    </div>
-                    <div class="message-content">
-                        <p class="message-text">Julian Herbst: Hi, I have a quick question regarding my application on the open...</p>
-                    </div>
-                </div>
-
-                <div class="message-card">
-                    <div class="message-sender">
-                        <img src="../icons/dot.svg" alt="" class="notification-dot" width="10px" height="10px">
-                        <p class="time">12h ago</p>
-                        <div class="sender-picture">
-                            <img src="../images/1.jpg" alt="" width="37px" height="37px" class="sender-pic">
-                        </div>
-                        <div class="sender-info">
-                            <p class="sender-name">Julian H.</p>
-                            <p class="applied-for">applied for <span class="highlighted">UI / UX Designer</span></p>
-                        </div>
-                    </div>
-                    <div class="message-content">
-                        <p class="message-text">Julian Herbst: Hi, I have a quick question regarding my application on the open...</p>
+                        <div class="send-text">
+                            <a href="#"><img src="../icons/smile.svg" alt="" width="20px" height="20px"></a>
+                            <a href="#"><img src="../icons/more-vertical.svg" alt="" width="20px" height="20px"></a>
+                            <div class="send">
+                                <a href="#" class="send-text-button">Send</a>
+                                <a href="#" class="down-arrow-border-left"><img src="../icons/chevron-down-white.svg" alt="" width="20px" height="20px"></a>
+                            </div>
+                        </div>   
                     </div>
                 </div>
-
-                <div class="message-card">
-                    <div class="message-sender">
-                        <img src="../icons/dot.svg" alt="" class="notification-dot" width="10px" height="10px">
-                        <p class="time">12h ago</p>
-                        <div class="sender-picture">
-                            <img src="../images/1.jpg" alt="" width="37px" height="37px" class="sender-pic">
-                        </div>
-                        <div class="sender-info">
-                            <p class="sender-name">Julian H.</p>
-                            <p class="applied-for">applied for <span class="highlighted">UI / UX Designer</span></p>
-                        </div>
-                    </div>
-                    <div class="message-content">
-                        <p class="message-text">Julian Herbst: Hi, I have a quick question regarding my application on the open...</p>
-                    </div>
-                </div>
-
-                <div class="message-card">
-                    <div class="message-sender">
-                        <img src="../icons/dot.svg" alt="" class="notification-dot" width="10px" height="10px">
-                        <p class="time">12h ago</p>
-                        <div class="sender-picture">
-                            <img src="../images/1.jpg" alt="" width="37px" height="37px" class="sender-pic">
-                        </div>
-                        <div class="sender-info">
-                            <p class="sender-name">Julian H.</p>
-                            <p class="applied-for">applied for <span class="highlighted">UI / UX Designer</span></p>
-                        </div>
-                    </div>
-                    <div class="message-content">
-                        <p class="message-text">Julian Herbst: Hi, I have a quick question regarding my application on the open...</p>
-                    </div>
-                </div>
-
-                
-                
-
             </div>
         </div>
     </div>
